@@ -20,12 +20,19 @@ We changed only one thing per question (species, health, age, fame, closeness, m
 
 %69 of the participants are female and %31 are male. The median age is 21 and about %70 are between 18 and 24, so the sample is mostly young.
 
+<table>
+<tr>
+<td width="50%">
+
 ```mermaid
 %%{init: {"themeVariables": {"pie1": "#d6604d", "pie2": "#4393c3", "pieTitleTextSize": "18px", "pieOuterStrokeWidth": "0px"}}}%%
 pie showData title Gender of participants
     "Female" : 8568
     "Male" : 3846
 ```
+
+</td>
+<td width="50%">
 
 ```mermaid
 %%{init: {"themeVariables": {"pie1": "#92c5de", "pie2": "#2166ac", "pie3": "#4393c3", "pie4": "#f4a582", "pie5": "#d6604d", "pie6": "#b2182b", "pieTitleTextSize": "18px", "pieOuterStrokeWidth": "0px"}}}%%
@@ -37,6 +44,10 @@ pie showData title Age of participants
     "45-54" : 76
     "55+" : 63
 ```
+
+</td>
+</tr>
+</table>
 
 ## Algorithms and methods
 
